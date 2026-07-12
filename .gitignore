@@ -1,0 +1,34 @@
+# Build artifacts
+**/Objects/
+**/Listings/
+*.o
+*.d
+*.crf
+*.dep
+*.map
+*.axf
+*.hex
+*.bin
+*.lst
+
+# IDE per-user
+*.uvguix.*
+
+# IAR settings
+settings/
+
+# Backup
+*.bak
+
+# Third-party SDK libraries (available from SEEKFREE)
+RT1064/libraries/
+RT1064Example/
+smart_car/SmartCar/libraries/
+rt_keil/libraries/
+
+# Third-party tools
+seekfree_assistant-master/
+
+# Temporary
+*~
+*.swp
